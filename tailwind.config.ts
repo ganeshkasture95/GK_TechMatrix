@@ -11,7 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        primary: "",
+        secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
+        quaternary: "var(--quaternary)",
+        quinary: "var(--quinary)",
+        senary: "var(--senary)",
+
+
       },
+
     },
   },
   plugins: [],
