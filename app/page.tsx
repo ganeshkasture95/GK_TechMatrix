@@ -1,13 +1,13 @@
+import About from "@/components/About";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <div className="flex  bg-background flex-col justify-center items-center  h-screen w-full  ">
+    <div className="flex  bg-primaryBackground flex-col h-screen  items-center  w-full ">
       <NavBar />
-      <div className="flex-1  w-[80%]">
-        <Header />
-      </div>
+      <Header />
+      <About/>
     </div>
   );
 }
