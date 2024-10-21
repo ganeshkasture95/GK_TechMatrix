@@ -9,15 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+
+        accent:"",
+
+        background: "#212529",
         foreground: "var(--foreground)",
 
-        primary: "",
-        secondary: "var(--secondary)",
-        tertiary: "var(--tertiary)",
-        quaternary: "var(--quaternary)",
-        quinary: "var(--quinary)",
-        senary: "var(--senary)",
+        primaryBackground: "#212529",
+        secondaryBackground: "#343A40",
+        tertiaryBackground: "#495057",
+
+        textPrimary:"#F8F9FA",
+        textSecondaty:"#E9ECEF",
+
+
+
+
+        quaternary: "#DEE2E6",
+        quinary: "#CED4DA",
+        senary: "#ADB5BD",
+        septenary: "#6C757D",
 
 
       },
